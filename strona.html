@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="pobierz.jpg">
+    <h1>freeCodeCamp Survey Form</h1>
+    <p class="top">Thank your for taking the time to help us improve the platform</p>
+    <fieldset>
+        <p>Name</p>
+        <form class="type">
+            <input class="one" type="text" required placeholder="Enter your name">
+        </form>
+        <p>Email</p>
+        <form class="type">
+            <input class="one" type="text" required placeholder="Enter your Email">
+        </form>
+        <p>Age (optional)</p>
+        <form class="type">
+            <input class="one" type="number" placeholder="Age">
+        </form>
+        <p>Which option best describes your current role?</p>
+        <form class="select">
+            <select id="roles" name="roles">
+              <option value="Select current role">Select current role</option>
+              <option value="Being autistic">Being autistic</option>
+              <option value="Being autistic but rich">Being autistic but rich</option>
+              <option value="Being autistic, rich, good">Being autistic, rich, good</option>
+            </select> 
+        </form>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <form class="radio">
+            <input type="radio">Definetly
+            <input type="radio">Maybe
+            <input type="radio">Not sure
+        </form>
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <form class="select">
+            <select id="features" name="features">
+                <option value="select an option">Select an option</option>
+                <option value="feature first">feature first</option>
+                <option value="feature second">feature second</option>
+                <option value="feature third">feature third</option>
+                <option value="feature fourth">feature fourth</option>
+                <option value="feature all of the features">all of the features except first</option>
+            </select>
+        <p>What would you like to see improved? (Check all that apply)</p> 
+        <form class="checkbox">
+            <input type="checkbox">Front-end Projects
+            <input type="checkbox">Back-end Projects
+            <input type="checkbox">Data Visualization
+        </form>
+        <p>Any comments or suggestions?</p>
+        <form class="comment">
+            <input class="comment" type="text" placeholder="Enter your comment here...">
+            <p> </p>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
